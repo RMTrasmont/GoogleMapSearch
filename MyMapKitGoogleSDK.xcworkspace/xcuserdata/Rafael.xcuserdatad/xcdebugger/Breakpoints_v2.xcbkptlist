@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MyMapKitGoogleSDK/ViewController.swift"
+            timestampString = "518557854.121782"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "477"
+            endingLineNumber = "477"
+            landmarkName = "downloadNewMarkerData()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MyMapKitGoogleSDK/ViewController.swift"
+            timestampString = "518557854.121782"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "488"
+            endingLineNumber = "488"
+            landmarkName = "downloadNewMarkerData()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MyMapKitGoogleSDK.ViewController.(downloadNewMarkerData () -&gt; ()).(closure #1)"
+                  moduleName = "MyMapKitGoogleSDK"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Rafael/Xcode%20Practice%20&amp;%20Project/Turn%20To%20Tech/Assignments/MyMapKitGoogleSDK/MyMapKitGoogleSDK/ViewController.swift"
+                  timestampString = "518557255.99143"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "490"
+                  endingLineNumber = "490"
+                  offsetFromSymbolStart = "27">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MyMapKitGoogleSDK.ViewController.(downloadNewMarkerData () -&gt; ()).(closure #1)"
+                  moduleName = "MyMapKitGoogleSDK"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Rafael/Xcode%20Practice%20&amp;%20Project/Turn%20To%20Tech/Assignments/MyMapKitGoogleSDK/MyMapKitGoogleSDK/ViewController.swift"
+                  timestampString = "518557255.994658"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "490"
+                  endingLineNumber = "490"
+                  offsetFromSymbolStart = "89">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MyMapKitGoogleSDK/ViewController.swift"
+            timestampString = "518557854.121782"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "521"
+            endingLineNumber = "521"
+            landmarkName = "createSearchMarkersWithJSON(json:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
