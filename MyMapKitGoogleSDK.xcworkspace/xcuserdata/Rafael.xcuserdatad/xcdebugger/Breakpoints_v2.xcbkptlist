@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MyMapKitGoogleSDK/ViewController.swift"
-            timestampString = "518557854.121782"
+            timestampString = "518562045.191588"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "477"
-            endingLineNumber = "477"
+            startingLineNumber = "475"
+            endingLineNumber = "475"
             landmarkName = "downloadNewMarkerData()"
             landmarkType = "7">
          </BreakpointContent>
@@ -26,11 +26,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MyMapKitGoogleSDK/ViewController.swift"
-            timestampString = "518557854.121782"
+            timestampString = "518562045.191588"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "488"
-            endingLineNumber = "488"
+            startingLineNumber = "486"
+            endingLineNumber = "486"
             landmarkName = "downloadNewMarkerData()"
             landmarkType = "7">
             <Locations>
@@ -74,11 +74,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MyMapKitGoogleSDK/ViewController.swift"
-            timestampString = "518557854.121782"
+            timestampString = "518562045.191588"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "521"
-            endingLineNumber = "521"
+            startingLineNumber = "519"
+            endingLineNumber = "519"
             landmarkName = "createSearchMarkersWithJSON(json:)"
             landmarkType = "7">
          </BreakpointContent>

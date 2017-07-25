@@ -20,9 +20,6 @@ class WebViewController: UIViewController {
         guard let restaurantWebURL = webURL else {return}
         webView.loadRequest(URLRequest(url: restaurantWebURL))
         
-
-
-        
     }
 
     override func didReceiveMemoryWarning() {
@@ -30,7 +27,5 @@ class WebViewController: UIViewController {
         
     }
     
-
-
 
 }

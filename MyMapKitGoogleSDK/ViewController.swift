@@ -30,8 +30,6 @@ class ViewController: UIViewController , UISearchBarDelegate , GMSMapViewDelegat
         var photoreference:String = ""
     }
     
-    
-    //**********************************************************************
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -47,10 +45,6 @@ class ViewController: UIViewController , UISearchBarDelegate , GMSMapViewDelegat
         NotificationCenter.default.addObserver(self, selector:#selector(segmentSelected), name: NSNotification.Name(rawValue: "SCTapped"), object: nil)
     }
 
-//**********************************************************************
-    
-
-//**********************************************************************
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         
@@ -66,7 +60,7 @@ class ViewController: UIViewController , UISearchBarDelegate , GMSMapViewDelegat
         
 
     }
-//**********************************************************************
+
     
     
     //METHOD TO IMPLEMENT MAP
@@ -85,7 +79,6 @@ class ViewController: UIViewController , UISearchBarDelegate , GMSMapViewDelegat
         //2.SET DELEGATE
         myMapView.delegate = self
         
-        
     }
     
     //METHOD TO LOAD TTT MARKER
@@ -99,7 +92,6 @@ class ViewController: UIViewController , UISearchBarDelegate , GMSMapViewDelegat
         
 
     }
-    
     
     //METHODS TO LOAD SEARCH BAR
     func initSearchBar(){
@@ -167,8 +159,6 @@ class ViewController: UIViewController , UISearchBarDelegate , GMSMapViewDelegat
         
     }
     
-    
-    
     //SETUP SOME HARD CODED MARKERS TO MAP
     func setupRestaurantMarkers(){
         
@@ -211,8 +201,6 @@ class ViewController: UIViewController , UISearchBarDelegate , GMSMapViewDelegat
         self.restaurantMarkers = NSSet.init(objects: dunkinMarker,subwayMarker,starbucksMarker,oharasMarker,georgesMarker) as! Set<GMSMarker>
     }
     
-
-
     //DELEGATE METHOD FOR CUSTOM INFO MARKER WINDOW WHEN PIN IS TAPPED
     func mapView(_ mapView: GMSMapView, markerInfoWindow marker: GMSMarker) -> UIView? {
     
@@ -299,7 +287,6 @@ class ViewController: UIViewController , UISearchBarDelegate , GMSMapViewDelegat
         return imageName
     }
 
-    
     //DELEGATE METHOD TO HANDLE TAPPING INFO WINDOW TO PERFORM ACTION
     func mapView(_ mapView: GMSMapView, didTapInfoWindowOf marker: GMSMarker) {
         
@@ -330,6 +317,7 @@ class ViewController: UIViewController , UISearchBarDelegate , GMSMapViewDelegat
             }
         }
     }
+    
     
     
     //METHOD TO HANDLE STOCK URL
@@ -604,6 +592,7 @@ class ViewController: UIViewController , UISearchBarDelegate , GMSMapViewDelegat
     
     public func searchBarShouldEndEditing(_ searchBar: UISearchBar) -> Bool {
         searchBar.setShowsCancelButton(false, animated: true)
+        
         return true
     }
     
@@ -618,13 +607,10 @@ class ViewController: UIViewController , UISearchBarDelegate , GMSMapViewDelegat
         searchBar.resignFirstResponder()
     }
     
-
     
 
+}
 
-//*****************END
-}                //END
-//*****************END
 
 
 
